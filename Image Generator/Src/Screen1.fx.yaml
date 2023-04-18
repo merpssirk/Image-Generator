@@ -34,7 +34,8 @@ Screen1 As screen:
         Height: =101
         OnSelect: |-
             =//Set(varResponse, ChatGPT.ImageGenerator(TextInput1.Text,1,"1024x1024"))
-            Set(varResponse, ChatGPT.ImageGenerator(TextInput1.Text,Dropdown_ImageToGenerate.Selected.Value,"1024x1024"))
+            Set(varResponse, ChatGPT.ImageGenerator(TextInput1.Text,Dropdown_ImageToGenerate.Selected.Value,"1024x1024"));
+            ClearCollect(colResponse, varResponse);
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -71,15 +72,9 @@ Screen1 As screen:
 
     Button1_1 As button:
         Height: =101
-        OnSelect: |-
+        OnSelect: |
             =//Set(varResponse, ChatGPT.ImageGenerator(TextInput1.Text,1,"1024x1024"))
-            Patch(
-                Documents,
-                Defaults(Documents),
-                {
-                    Name:Image1.Image
-                }
-            )
+            //Refresh(Documents);Patch(Documents,Defaults(Documents),{})
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0

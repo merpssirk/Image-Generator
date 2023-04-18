@@ -7,15 +7,18 @@
     "Button1_1": 11,
     "Dropdown_ImageToGenerate": 8,
     "Dropdown_IndexOfImage": 9,
+    "Gallery1": 13,
+    "galleryTemplate1": 14,
     "Image1": 6,
     "Label1": 5,
     "Rectangle1": 4,
     "Screen1": 3,
+    "Screen2": 12,
     "TextInput1": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/18/2023 14:20:01",
+  "HeaderLastSavedDateTimeUTC": "04/18/2023 15:01:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "467fed42-14e8-4025-a2b0-f14e71f23d89": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-bf77dd28-090a-44c8-92c8-d3e6de32e4ff\"",
@@ -28,6 +31,8 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "ChatGPT": 0,
+    "colResponse": 4,
+    "CustomGallerySample": 3,
     "Documents": 2,
     "DropDownSample": 1
   },
@@ -37,6 +42,7 @@
   "OrderXMLTemplate": {
     "button": 5,
     "dropdown": 4,
+    "gallery": 6,
     "image": 2,
     "label": 1,
     "rectangle": 0,
@@ -48,10 +54,13 @@
     "Button1_1": {},
     "Dropdown_ImageToGenerate": {},
     "Dropdown_IndexOfImage": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
     "Image1": {},
     "Label1": {},
     "Rectangle1": {},
     "Screen1": {},
+    "Screen2": {},
     "TextInput1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -62,10 +71,13 @@
     "Button1_1": 7,
     "Dropdown_ImageToGenerate": 4,
     "Dropdown_IndexOfImage": 5,
+    "Gallery1": 8,
+    "galleryTemplate1": 9,
     "Image1": 2,
     "Label1": 1,
     "Rectangle1": 0,
     "Screen1": 0,
+    "Screen2": 0,
     "TextInput1": 3
   },
   "ResourcesJsonIndices": {
