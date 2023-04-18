@@ -1,0 +1,45 @@
+{
+  "467fed42-14e8-4025-a2b0-f14e71f23d89": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1623/1.0.1623.3210/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://m365x41464408.sharepoint.com/sites/seaRenergy": {
+        "dataSources": {
+          "Documents": {
+            "tableName": "85ac03e0-734a-46f2-a201-ba25144115a6"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Documents"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "467fed42-14e8-4025-a2b0-f14e71f23d89"
+  },
+  "a9ce97eb-4848-46ae-af99-eb34fd60df91": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "ChatGPT",
+      "iconUri": "https://prodapiicons.cdn.powerappscdn.net/20230330t000000z550e66b17bd5475db0b86c15a7eeefda/customconnectoricon.jpg",
+      "id": "/providers/microsoft.powerapps/apis/shared_chatgpt-5f23ec20f5ea5f22a8-5f1b3e33e3d0bc173a",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "ChatGPT"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a9ce97eb-4848-46ae-af99-eb34fd60df91"
+  }
+}
