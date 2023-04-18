@@ -1,0 +1,91 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 10,
+    "Button1_1": 11,
+    "Dropdown_ImageToGenerate": 8,
+    "Dropdown_IndexOfImage": 9,
+    "Image1": 6,
+    "Label1": 5,
+    "Rectangle1": 4,
+    "Screen1": 3,
+    "TextInput1": 7
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "04/18/2023 14:16:31",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "467fed42-14e8-4025-a2b0-f14e71f23d89": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-bf77dd28-090a-44c8-92c8-d3e6de32e4ff\"",
+    "a9ce97eb-4848-46ae-af99-eb34fd60df91": "\"/providers/microsoft.powerapps/apis/shared_chatgpt-5f23ec20f5ea5f22a8-5f1b3e33e3d0bc173a/connections/7b3e373b919843038d5357be894aa2f8\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "ChatGPT": 0,
+    "Documents": 2,
+    "DropDownSample": 1
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 5,
+    "dropdown": 4,
+    "image": 2,
+    "label": 1,
+    "rectangle": 0,
+    "text": 3
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Button1_1": {},
+    "Dropdown_ImageToGenerate": {},
+    "Dropdown_IndexOfImage": {},
+    "Image1": {},
+    "Label1": {},
+    "Rectangle1": {},
+    "Screen1": {},
+    "TextInput1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 6,
+    "Button1_1": 7,
+    "Dropdown_ImageToGenerate": 4,
+    "Dropdown_IndexOfImage": 5,
+    "Image1": 2,
+    "Label1": 1,
+    "Rectangle1": 0,
+    "Screen1": 0,
+    "TextInput1": 3
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1073277,
+    "ControlCount": {
+      "button": 2,
+      "dropdown": 2,
+      "image": 1,
+      "label": 1,
+      "rectangle": 1,
+      "screen": 1,
+      "text": 1
+    },
+    "DeserializationLoadTime": 0.4580796,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
